@@ -1,8 +1,6 @@
 # Angular Todo Application
 
-A modern, feature-rich Todo application built with Angular 20, featuring comprehensive unit testing with Jest and Angular Testing Library. This project demonstrates advanced testing techniques and best practices in Angular development, including signals, standalone components, HTTP client usage, extensive mocking strategies, and reactive programming with RxJS.
-
-The application showcases a complete testing ecosystem with multiple service implementations, comprehensive HTTP testing, component interaction validation, and advanced mocking techniques using Jest spies and Angular Testing Library.
+A modern, feature-rich Todo application built with Angular 20, featuring comprehensive unit testing with Jest and Angular Testing Library. This project demonstrates advanced testing techniques and showcases a complete testing ecosystem with multiple service implementations, comprehensive HTTP testing, component interaction validation, and advanced mocking techniques using Jest spies and Angular Testing Library.
 
 ## 🚀 Features
 

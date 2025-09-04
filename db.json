@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "text": "Learn Angularjj",
+      "isCompleted": false
+    },
+    {
+      "id": "3",
+      "text": "Set up json-server",
+      "isCompleted": false
+    },
+    {
+      "id": "b61b",
+      "text": "Test",
+      "isCompleted": true
+    }
+  ]
+}

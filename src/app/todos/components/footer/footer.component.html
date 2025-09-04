@@ -1,0 +1,39 @@
+<footer
+  class="footer"
+  data-testid="footer"
+  [ngClass]="{ hidden: noTodosClass() }"
+>
+  <span class="todo-count" data-testid="todoCount">
+    <strong>{{ activeCount() }}</strong>
+    {{ itemsLeftText() }}
+  </span>
+  <ul class="filters">
+    <li>
+      <span
+        [ngClass]="{ selected: filterSig() === filterEnum.all }"
+        data-testid="filterLink"
+        (click)="changeFilter(filterEnum.all)"
+      >
+        All
+      </span>
+    </li>
+    <li>
+      <span
+        [ngClass]="{ selected: filterSig() === filterEnum.active }"
+        data-testid="filterLink"
+        (click)="changeFilter(filterEnum.active)"
+      >
+        Active
+      </span>
+    </li>
+    <li>
+      <span
+        [ngClass]="{ selected: filterSig() === filterEnum.completed }"
+        data-testid="filterLink"
+        (click)="changeFilter(filterEnum.completed)"
+      >
+        Completed
+      </span>
+    </li>
+  </ul>
+</footer>

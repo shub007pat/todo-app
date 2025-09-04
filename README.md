@@ -504,27 +504,6 @@ apiBaseUrl = environment.production
    npx tsc --noEmit
    ```
 
-## 📚 Learning Resources
-
-- [Angular Documentation](https://angular.dev)
-- [Angular Testing Guide](https://angular.dev/guide/testing)
-- [Jest Documentation](https://jestjs.io/docs/getting-started)
-- [Angular Testing Library](https://testing-library.com/docs/angular-testing-library/intro/)
-- [JSON Server Documentation](https://github.com/typicode/json-server)
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
-
-- Angular team for the excellent framework
-- Jest team for the testing framework
-- Testing Library team for testing utilities
-- JSON Server for the mock API solution
-
----
-
-**Happy Coding! 🎉**
-
-For questions or support, please open an issue in the repository.
